@@ -4,9 +4,9 @@ import jm.task.core.jdbc.model.User;
 
 import java.util.List;
 
-public class UserDaoHibernateImpl implements UserDao {
-    public UserDaoHibernateImpl() {
+public class UserDaoHibernateImpl implements UserDao{
 
+    public UserDaoHibernateImpl() {
     }
 
 
@@ -14,7 +14,6 @@ public class UserDaoHibernateImpl implements UserDao {
     public void createUsersTable() {
 
     }
-
     @Override
     public void dropUsersTable() {
 
@@ -32,7 +31,7 @@ public class UserDaoHibernateImpl implements UserDao {
 
     @Override
     public List<User> getAllUsers() {
-        return null;
+            return null;
     }
 
     @Override
