@@ -2,8 +2,6 @@ package jm.task.core.jdbc;
 
 import jm.task.core.jdbc.service.UserServiceImpl;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 
